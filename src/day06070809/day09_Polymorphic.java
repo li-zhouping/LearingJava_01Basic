@@ -8,7 +8,7 @@ package day06070809;
  * 成员方法：编译看左边（父类），运行看右边（子类）动态绑定
  * 静态方法：编译看左边（父类），运行看左边（父类）
  */
-public class day09_Polymorphic {
+public class Day09_Polymorphic {
 	public static void main(String[] args) {
 		
 		bAnimal a = new bCat();  //父类引用指向子类对象 
